@@ -1,0 +1,10 @@
+server:
+  port: 8001
+spring:
+  datasource:
+    driver-class-name: org.h2.Driver
+    url: jdbc:h2:mem:USER_API_DATA;INIT=CREATE SCHEMA IF NOT EXISTS USER_API_DATA
+    password:
+    username: sa
+  application:
+    name: user-service
